@@ -17,6 +17,7 @@ footer {
 nav {
     display: flex;
     justify-content: space-between;
+    background-color: #EBD4A8;
 }
 
 ul {
@@ -58,12 +59,30 @@ p {
     width: 200px;
     height: 45px;
     border-radius: 45px;
-    background-color:#E3A59A;
+    background-color:#F9C5AF;
     text-align: center;
     font-size: 30px;
     font-weight: 500;
     padding-top: 18px;
     margin-top: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button:active {
+    transform: scale(1.1);
+    background-color: #f5ae8f;
 }
 
 .landing-area {
