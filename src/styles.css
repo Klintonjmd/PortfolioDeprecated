@@ -5,8 +5,7 @@ body {
 
 
 section {
-    height: 500px;
-    background-color:#BAD2B8;
+    background-color:#c3883d;
     border: solid black 1px;    
 }
 
@@ -113,6 +112,40 @@ p {
     padding: 60px;
 }
 
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
 .about-me {
 
+}
+
+.profile-image-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    size: 100px;
+    border-radius: 150px;
+    border: solid 8px #20130e;
+    box-shadow: 5px 5px 3px #20130e;
+}
+
+.project-card {
+    width: 380px;
+    height: 500px;
+    box-shadow: 5px 5px 20px #20130e;
+    background-color: #f6edce;
+    border-radius: 8px;
+    border: solid 4px #fff3c5;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-self: center;
 }
