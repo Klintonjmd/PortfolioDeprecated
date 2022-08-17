@@ -41,10 +41,15 @@ h1 {
     margin: 0px 0px 0px 0px;
 }
 
+h2 {
+    font-size: 60px;
+}
+
 p {
     margin: 0px;
     font-weight: 500;
     width: 100%;
+    font-size: 30px;
 }
 
 .landing {
@@ -58,6 +63,7 @@ p {
     margin-left: 40px;
     margin-bottom: 220px;
     color: #20130e;
+    width: 55%;
 }
 
 .button {
@@ -99,4 +105,14 @@ p {
 
 .social {
     margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.about-me {
+
 }
