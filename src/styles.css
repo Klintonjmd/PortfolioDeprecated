@@ -6,12 +6,13 @@ body {
 
 section {
     background-color:#c3883d;
-    border: solid black 1px;    
+    box-shadow: 5px 5px 20px #553b31;  
 }
 
 footer {
     height: 500px;
-    background-color:#7B897C;
+    background-color:#20130e;
+    color: #f2e3c3;
 }
 
 nav {
@@ -26,8 +27,9 @@ ul {
     list-style-type: none;
     width: 500px;
     justify-content: space-between;
-    font-size: 30px;
+    font-size: 20px;
     padding-left: 0px;
+    padding: 0px 15px 0px 15px;
 }
 
 li {
@@ -42,6 +44,12 @@ h1 {
 
 h2 {
     font-size: 60px;
+    color: #20130e;
+}
+
+h3 {
+    font-size: 32px;
+    margin-top: 20px;
 }
 
 p {
@@ -49,6 +57,7 @@ p {
     font-weight: 500;
     width: 100%;
     font-size: 30px;
+    color: #20130e;
 }
 
 .landing {
@@ -85,6 +94,25 @@ p {
     transition-property: transform;
 }
 
+.project-button {
+    width: 200px;
+    height: 45px;
+    border-radius: 45px;
+    background-color:#20130e;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 18px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
 
 .button:hover {
     transform: scale(1.1);
@@ -127,17 +155,10 @@ p {
     align-items: center;
 }
 
-.profile-image {
-    size: 100px;
-    border-radius: 150px;
-    border: solid 8px #20130e;
-    box-shadow: 5px 5px 3px #20130e;
-}
-
 .project-card {
-    width: 380px;
+    width: 300px;
     height: 500px;
-    box-shadow: 5px 5px 20px #20130e;
+    box-shadow: 5px 5px 20px #553b31;
     background-color: #f6edce;
     border-radius: 8px;
     border: solid 4px #fff3c5;
@@ -146,6 +167,25 @@ p {
 .project-container {
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    align-self: center;
+}
+
+.project-text {
+    font-size: 24px;
+}
+
+.anchor {
+    text-decoration: none;
+    color:#f6edce;
+}
+
+.project-image {
+    width: 220px;
+    height: 150px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+#about-me {
+    width: 50%;
+    margin: 0px;
 }
