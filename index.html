@@ -14,16 +14,16 @@
     <section class="landing">
         <nav>
             <ul>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>My Resume</li>
+                <li><a class="anchor" href="#about-me">About Me</a></li>
+                <li><a class="anchor" href="#projects">Projects</a></li>
+                <li><a class="anchor" href="#my-resume">My Resume</a></li>
             </ul>
         </nav>
     <div class="landing-area">
         <div class="landing-text">
         <h1> Klinton Driscoll</h1>
         <p>Computer Science Student at The Ohio State University</p>
-        <div class="button">My Resume</div>
+        <div class="button"><a class="anchor" id="cta" href="#my-resume">My Resume</a></div>
         </div>
         <div>
           <div class="social">
@@ -37,21 +37,22 @@
         </div>
     </div>
     </section>
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
       <div class="about-me">
         <h2>About Me</h2>
-        <p id="about-me">I'm Klinton Driscoll, a college sophmore who specialized in web development. I've worked with JavaScript, ASP.NET, C#, SQL, Git, Python, and much more.</p>
+        <p>I'm Klinton Driscoll, a college sophmore who specializes in web development. I've worked with JavaScript, ASP.NET, C#, SQL, Git, Python, and much more.</p>
       </div>
       <div class="profile-image-container">
       </div>
     </section>
-    <section class="sub-section-alternative">
+    <section class="sub-section-alternative" id="projects">
       <h2>Projects</h2>
       <div class="project-container">
         <div class="project-card">
           <img class="project-image" src="src/images/Code Screenshot.png" alt="Project One Image">
           <h3>Web Development Journal</h3>
           <p class="project-text">This is a pure HTML/CSS repo where I document all my learning regarding web development.</p>
+          <hr>
           <div class="project-button">
             <a  class="anchor" href="http://https://github.com/Klintonjmd/Web-Development-Journal" target="_blank" title="">View Project</a>
           </div>
@@ -60,13 +61,14 @@
           <img class="project-image" src="src/images/Code Screenshot(2).png" alt="Project One Image">
           <h3>Personal Finance Dashboard (In Development)</h3>
           <p class="project-text">This is a React App that employs JavaScript and AWS.</p>
+          <hr>
           <div class="project-button">
             <a  class="anchor" href="http://https://github.com/Klintonjmd/Web-Development-Journal" target="_blank" title="">View Project</a>
           </div>
         </div>
       </div>
     </section>
-    <section>
+    <section id="my-resume">
       <h2>My Resume</h2>
     </section>
     <footer></footer>
