@@ -145,6 +145,7 @@ p {
     display: flex;
     justify-content: space-around;
     padding: 60px;
+    height: 40%;
 }
 
 .sub-section-alternative {
@@ -156,7 +157,13 @@ p {
 
 .profile-image-container {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+}
+
+.profile-image {
+    size: 90%;
+    box-shadow: 2px 2px 10px #553b31;
+    border: solid 5px #20130e;
 }
 
 .project-card {
@@ -188,6 +195,10 @@ p {
     height: 40%;
     margin-top: 25px;
     border-radius: 20px;
+}
+
+.about-me-text {
+    max-width: 800px;
 }
 
 hr {
