@@ -160,7 +160,7 @@ p {
 }
 
 .project-card {
-    width: 300px;
+    width: 300%;
     height: 500px;
     box-shadow: 5px 5px 20px #553b31;
     background-color: #88bff3;
