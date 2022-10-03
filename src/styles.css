@@ -101,13 +101,13 @@ p {
 }
 
 .project-button {
-    width: 200px;
+    width: 150px;
     height: 45px;
     border-radius: 45px;
     background-color:#20130e;
     color:#f4ede4;
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
     padding-top: 18px;
     margin-top: 20px;
@@ -184,8 +184,8 @@ p {
 }
 
 .project-image {
-    width: 220px;
-    height: 150px;
+    width: 90%;
+    height: 40%;
     margin-top: 25px;
     border-radius: 20px;
 }
