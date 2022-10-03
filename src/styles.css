@@ -9,7 +9,7 @@ body {
 
 
 section {
-    background-color:#f6edce;
+    background-color:#f4ede4;
     box-shadow: 5px 5px 20px #553b31;  
 }
 
@@ -22,7 +22,7 @@ footer {
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: 	#78462c;
+    background-color: 	#553b31;
     color: #f4ede4;
 }
 
@@ -82,8 +82,9 @@ p {
     width: 200px;
     height: 45px;
     border-radius: 45px;
-    background-color:#c3883d;
+    background-color:#553b31;
     text-align: center;
+    color:#f4ede4;
     font-size: 30px;
     font-weight: 500;
     padding-top: 18px;
@@ -96,6 +97,7 @@ p {
     -moz-osx-font-smoothing: grayscale;
     transition-duration: 0.3s;
     transition-property: transform;
+
 }
 
 .project-button {
@@ -103,6 +105,7 @@ p {
     height: 45px;
     border-radius: 45px;
     background-color:#20130e;
+    color:#f4ede4;
     text-align: center;
     font-size: 30px;
     font-weight: 500;
@@ -124,7 +127,7 @@ p {
 
 .button:active {
     transform: scale(1.1);
-    background-color: #d3a160;
+    background-color: #422601;
 }
 
 .landing-area {
@@ -177,7 +180,7 @@ p {
 
 .anchor {
     text-decoration: none;
-    color:#f6edce;
+    color:#f4ede4;
 }
 
 .project-image {
